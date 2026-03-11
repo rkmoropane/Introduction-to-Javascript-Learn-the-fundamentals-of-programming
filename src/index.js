@@ -97,11 +97,49 @@ console.log("HI");
 // double vs triple equals
 // double equal: unreal equal true that '18' == 18
 // double equal: true equal false that '18' === 18
-const age = "18";
+// const age = "18";
 
-if (age == 18) {
-    console.log("YOU ARE AN ADULT");
-} else {
-    console.log("NOT AN ADULT");
+// if (age == 18) {
+//     console.log("YOU ARE AN ADULT");
+// } else {
+//     console.log("NOT AN ADULT");
+// }
+
+// switch-statement
+// root, super-admin, admin, customer, enterprise
+const userType = "super-admin";
+
+// Apply switch statement
+switch (userType) {
+    case "root":
+        console.log("ROOT USER LOGGED IN");
+        break;
+    case "super-admin":
+        console.log("SUPERADMIN USER LOGGED IN");
+        break;
+    case "admin":
+        console.log("ADMIN USER LOGGED IN");
+        break;
+    case "customer":
+        console.log("CUSTOMER USER LOGGED IN");
+        break;
+    case "enterprise":
+        console.log("ENTERPRISE USER LOGGED IN");
+        break;
+    default:
+        console.log("NO USER LOGGED IN");
 }
 
+// if (userType == "admin") {
+//     console.log("ADMIN USER LOGGED IN");
+// } else if (userType == "super-admin") {
+//     console.log("SUPERADMIN USER LOGGED IN");
+// } else if (userType == "root") {
+//     console.log("ROOT USER LOGGED IN");
+// }else if (userType == "customer") {
+//     console.log("CUSTOMER USER LOGGED IN");
+// } else {
+//     console.log("ENTERPRISE USER LOGGED IN");
+// }
+
+console.log("DONE!");
