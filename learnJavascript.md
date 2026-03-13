@@ -221,3 +221,16 @@ var username = "Kholo";
 
 - **What is the purpose of the default case in a switch statement?**
  > It is executed when none of the other cases match
+
+- **What is the primary purpose of the parseInt() function in JavaScript?**
+ > It converts a string to an integer
+
+- **What does the String() function do in JavaScript**
+ > Converts a number to a string
+
+- **What is type coercion in JavaScript?**
+ > The automatic conversion of values between different data types
+
+- **What is the primary purpose of the equality (==) operator in JavaScript?**
+ > It compares two values for equality and automatically performs type coercion if needed
+

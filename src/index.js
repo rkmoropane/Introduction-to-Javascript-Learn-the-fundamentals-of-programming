@@ -107,28 +107,28 @@ console.log("HI");
 
 // switch-statement
 // root, super-admin, admin, customer, enterprise
-const userType = "super-admin";
+// const userType = "super-admin";
 
-// Apply switch statement
-switch (userType) {
-    case "root":
-        console.log("ROOT USER LOGGED IN");
-        break;
-    case "super-admin":
-        console.log("SUPERADMIN USER LOGGED IN");
-        break;
-    case "admin":
-        console.log("ADMIN USER LOGGED IN");
-        break;
-    case "customer":
-        console.log("CUSTOMER USER LOGGED IN");
-        break;
-    case "enterprise":
-        console.log("ENTERPRISE USER LOGGED IN");
-        break;
-    default:
-        console.log("NO USER LOGGED IN");
-}
+// // Apply switch statement
+// switch (userType) {
+//     case "root":
+//         console.log("ROOT USER LOGGED IN");
+//         break;
+//     case "super-admin":
+//         console.log("SUPERADMIN USER LOGGED IN");
+//         break;
+//     case "admin":
+//         console.log("ADMIN USER LOGGED IN");
+//         break;
+//     case "customer":
+//         console.log("CUSTOMER USER LOGGED IN");
+//         break;
+//     case "enterprise":
+//         console.log("ENTERPRISE USER LOGGED IN");
+//         break;
+//     default:
+//         console.log("NO USER LOGGED IN");
+// }
 
 // if (userType == "admin") {
 //     console.log("ADMIN USER LOGGED IN");
@@ -149,20 +149,57 @@ switch (userType) {
 
 
 // Write switch statement block here
-const time = "night";
-switch(time) {
-    case "morning":
-        console.log("Good Morning!");
-        break;
-    case "afternoon":
-        console.log("Good Afternoon!");
-        break;
-    case "night":
-        console.log("Good Night!");
-        break;
-    default:
-        console.log("Hi!");
+// const time = "night";
+// switch(time) {
+//     case "morning":
+//         console.log("Good Morning!");
+//         break;
+//     case "afternoon":
+//         console.log("Good Afternoon!");
+//         break;
+//     case "night":
+//         console.log("Good Night!");
+//         break;
+//     default:
+//         console.log("Hi!");
 
-}
+// }
 
-console.log("DONE!");
+// console.log("DONE!");
+
+
+// changing types
+// coercion (implicit conversion)
+// truthy & falsy values
+
+// const age1 = "23";
+// const age2 = parseInt(age1); // use the built-in function 'parseInt()' to change the string to Integer
+
+// const age3 = 23;
+// const age4 = String(age3); // use the built-in function 'String()' to change number to a String value 
+// console.log(typeof(age1), typeof(age2), typeof(age4));
+
+// coercion (Implicit conversion)
+
+// console.log("23" * "3");
+// console.log(typeof("23" * "3"));
+
+
+// console.log("23" + "3");
+
+// Truthy & Falsy values:
+
+// console.log(Boolean(45));
+// let num = 45;
+
+// if (num) {
+//     console.log("RUN THE PROGRAM");
+// } else {
+//     console.log("END THE PROGRAM");
+// }
+
+// console.log(Boolean(0));
+// console.log(Boolean(null));
+// console.log(Boolean(undefined));
+// console.log(Boolean(NaN));
+
