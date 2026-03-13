@@ -142,4 +142,27 @@ switch (userType) {
 //     console.log("ENTERPRISE USER LOGGED IN");
 // }
 
+// Creating a bot to greet correctly 
+// if morning greet Good Morning
+// afternoon greet Good Afternoon!
+// night greet Good Night
+
+
+// Write switch statement block here
+const time = "night";
+switch(time) {
+    case "morning":
+        console.log("Good Morning!");
+        break;
+    case "afternoon":
+        console.log("Good Afternoon!");
+        break;
+    case "night":
+        console.log("Good Night!");
+        break;
+    default:
+        console.log("Hi!");
+
+}
+
 console.log("DONE!");

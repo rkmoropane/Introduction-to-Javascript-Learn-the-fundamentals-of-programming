@@ -207,3 +207,17 @@ var username = "Kholo";
 - **In JavaScript, what happens when you use the == operator to compare values of different data types?**
  > JavaScript will automatically convert the values to the same data type before comparing
 
+- **What is the purpose of the switch statement in JavaScript?**
+ > It is used to execute different blocks of code based on the value of an expression
+
+- **What does the break statement do within a switch statement in JavaScript?**
+ > It prevents fall-through behavior and exits the switch block
+
+
+- **When might you want to use a switch statement instead of multiple if statements?**
+ > When you need to execute multiple conditions
+- **Which statement prevents the "fall-through" behavior in a switch statement?**
+ > `break;`
+
+- **What is the purpose of the default case in a switch statement?**
+ > It is executed when none of the other cases match
