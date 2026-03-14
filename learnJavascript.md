@@ -162,6 +162,9 @@ The driver claims that he only gets a 70% commission. How much does he and the u
 - The `==` operator checks for loose equality, meaning it will compare the values for equality without considering their data types.
 - The `===` operator checks for strict equality, meaning it compares both the values and data types.
 
+#### tenary operators: 
+- only for short statements
+
 ECMAScript took over managing Javascript - there's E5, E6, etc
 **e.g**
 ```
