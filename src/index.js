@@ -207,16 +207,16 @@
 // Create variable fullName, jobTitle, university, age
 // inject them into the string
 // appear over multiple lines
-const fullName = "Kholofelo Moropane";
-const jobTitle = "Software engineer at Kaelo";
-const university = "University of South Africa";
-const age = 29;
+// const fullName = "Kholofelo Moropane";
+// const jobTitle = "Software engineer at Kaelo";
+// const university = "University of South Africa";
+// const age = 29;
 
-const output = `
-  My name is ${fullName}
-  I am the ${jobTitle}
-  I graduated from the ${university}
-  My age is ${age} years
-`;
+// const output = `
+//   My name is ${fullName}
+//   I am the ${jobTitle}
+//   I graduated from the ${university}
+//   My age is ${age} years
+// `;
 
-console.log(output);
+// console.log(output);

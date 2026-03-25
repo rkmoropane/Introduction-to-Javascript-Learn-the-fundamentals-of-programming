@@ -165,6 +165,30 @@ The driver claims that he only gets a 70% commission. How much does he and the u
 #### tenary operators: 
 - only for short statements
 
+## Objects for Key value pairs
+
+- Useful for storing associated data
+
+- Variables are boxes, and objects are file-cabinets
+
+- Object literal syntax
+
+- Keys are the name of the files
+
+- Values are the actual data in the files
+
+- Object (literal) is the file cabinet
+
+- Objects can be nested (multiple lines)
+
+- Can use functions in key-value pairs
+
+## Primitive type vs Object types:
+- Primitive types are the ones that we already used quite a lot in the program. e.g:
+Undefined, null, boolean, nummber, string, symbol.
+- Object type > allows us to manage structures of primitive.
+
+## Question and answers regarding Javascript.
 ECMAScript took over managing Javascript - there's E5, E6, etc
 **e.g**
 ```
@@ -236,4 +260,58 @@ var username = "Kholo";
 
 - **What is the primary purpose of the equality (==) operator in JavaScript?**
  > It compares two values for equality and automatically performs type coercion if needed
+
+- **What is the purpose of an object key in JavaScript?**
+ > To provide a unique identifier for an object
+
+- **What is object destructuring in JavaScript?**
+ > A process of extracting values from an object and assigning them to variables
+
+- **Which symbol is used for object destructuring in JavaScript?**
+ > `{...}`
+
+- **Which syntax is used for object destructuring in JavaScript?**
+ > `let { key1, key2 } = object;`
+
+- **What is the purpose of the syntax const { val } = obj in JavaScript?**
+ > It extracts the property val from the obj and assigns it to a constant variable named val.
+
+- **Which of the following statements correctly demonstrates the concept of object destructuring using the const { val } = obj syntax?**
+ > const { name } = person;
+
+- **What is the primary advantage of using object destructuring for variable assignment?**
+ > It provides a concise and convenient way to extract and assign object properties to variables
+
+- **What is the purpose of Object.assign() in JavaScript?**
+ > To merge two or more objects into a single object
+
+- **What is the syntax of the Object.assign() method for merging objects?**
+ > `Object.assign(targetObj, sourceObj)`
+
+- **What happens if two or more objects being merged have properties with the same name?**
+ > The properties from later objects overwrite the properties from earlier objects
+
+
+- **What is the primary purpose of the rest operator (...) in JavaScript?**
+ > To gather multiple function arguments into an array
+- **How is the spread operator (...) different from the rest operator (...) in JavaScript?**
+ > The spread operator spreads elements from an array or object, while the rest operator gathers elements into an array or object
+
+- **Which of the following statements correctly demonstrates the use of the rest operator in function parameter lists?**
+ > `function sum(...numbers) {}`
+
+- **What happens when you use the spread operator with an object?**
+ > The properties of the object are spread into a new object
+
+- **How does the spread operator affect the target object when merging properties from source objects?**
+ > It modifies the target object by adding properties from the source objects
+
+- **How is a function defined inside an object commonly referred to in JavaScript?**
+ > object
+
+- **How can you define a function named calculate inside an object named calculator using the object literal syntax?**
+ > `calculator.calculate = function() {}`
+
+- **How can you use the spread operator to create a shallow copy of an object named originalObj with an additional property named newProp?**
+ > `const newObj = { ...originalObj, newProp: value };`
 
